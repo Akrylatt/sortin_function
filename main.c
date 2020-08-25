@@ -31,7 +31,7 @@ void insertion_sort(int x[], int pocet){
 }
 
 /*insertion sort for two arrays, where x is kept unsorted while y is sorted*/
-void insertion_sort_2Arr(int x[], int y[], int pocet){
+/*void insertion_sort_2Arr(int x[], int y[], int pocet){
   y[0] = x[0];
   for(int i = 0; i < pocet - 1; i ++){
     int j = i + 1;
@@ -44,7 +44,7 @@ void insertion_sort_2Arr(int x[], int y[], int pocet){
   }
   
 }
-
+*/
 /* Bubble sort
 * iterates through all arr n-1 times
 * Takes element comares it with next right 
